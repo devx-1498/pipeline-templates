@@ -13,7 +13,7 @@ jobs:
     - uses: terraform-linters/setup-tflint@v1
       with:
         tflint_version: latest
-    - uses: pre-commit/action@v3.0.0
+    - uses: pre-commit/action@v3.0.1
     - name: Analyze Kustomize Manifests
       run: |
         pwd
