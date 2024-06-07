@@ -12,7 +12,7 @@ spec:
   steps:
     - name: yq
       workingDir: $(workspaces.source.path)
-      image: mikefarah/yq:3.3.2
+      image: mikefarah/yq:3.4.1
       script: |
         #!/usr/bin/env sh
         echo "Running: '$(params.commands)'"
